@@ -10,5 +10,6 @@ class Java1st
         int num2 = scan.nextInt();
         int Add = num2 + num1;
         System.out.println("Total is " + Add);
+        System.out.println("This Program is OVer");
     }
 }
