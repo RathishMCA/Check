@@ -5,10 +5,9 @@ class FileJava
 {
     public static void main(String arg[])
     {
-
       try{
-         File TxtFile = new File("F:\filetxt.txt");
-        if(TxtFile.createNewFile())
+         File TxtFile = new File("filetxt.txt");
+         if(TxtFile.createNewFile())
         {
             System.out.println("The File Is Created :"+TxtFile.getName());
         }
